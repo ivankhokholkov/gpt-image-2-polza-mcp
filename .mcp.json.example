@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "gpt-image-2-polza": {
+      "command": "uv",
+      "args": ["run", "gpt-image-2-polza-mcp-server"],
+      "cwd": "/absolute/path/to/gpt-image-2-polza-mcp",
+      "env": {
+        "POLZA_AI_API_KEY": "your-polza-api-key-here",
+        "POLZA_BASE_URL": "https://polza.ai/api",
+        "IMAGE_OUTPUT_DIR": "/Users/demo/Documents/gpt-image-2-output"
+      }
+    }
+  }
+}

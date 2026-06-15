@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.ivankhokholkov/gpt-image-2-polza-mcp-server",
+  "description": "GPT Image 2 MCP server backed by Polza media and storage APIs.",
+  "repository": {
+    "url": "https://github.com/ivankhokholkov/gpt-image-2-polza-mcp",
+    "source": "github"
+  },
+  "version": "0.6.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "gpt-image-2-polza-mcp-server",
+      "version": "0.6.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
